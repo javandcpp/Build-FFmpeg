@@ -1,4 +1,4 @@
-#Build FFmpeg with x264
+<h1>Build FFmpeg with x264</h1>
 
 
 FFmpeg    git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg <br/>
@@ -6,9 +6,9 @@ X264      git clone http://git.videolan.org/git/x264.git
 
 
 
-###1,build_x264.sh  编译X264 <br/>
-###2,build_android.sh 编译FFmpeg Android动态与静态库 <br/>
-###3,build_android_with_x264.sh  编译FFmpeg集成X264编码 <br/>
+<h2>1,build_x264.sh  编译X264 <br/></h2>
+<h2>2,build_android.sh 编译FFmpeg Android动态与静态库 <br/></h2>
+<h2>3,build_android_with_x264.sh  编译FFmpeg集成X264编码 <br/></h2>
 
 
 注意：clone x264项目后copy到ffmpeg目录下 <br/>
