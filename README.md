@@ -55,7 +55,7 @@ build_android_with_x264.sh 脚本
     cd ..                     #进入上层目录
 
 
-    function build_one
+    function build_ffmpeg
     {
     ./configure \
     --prefix=$PREFIX \
@@ -146,7 +146,7 @@ build_android_with_x264.sh 脚本
     OPTIMIZE_CFLAGS="-mfloat-abi=softfp -mfpu=vfp -marm -march=$CPU "
     PREFIX=./android-lib   
     ADDITIONAL_CONFIGURE_FLAG=
-    build_one
+    build_ffmpeg
     
     
     
