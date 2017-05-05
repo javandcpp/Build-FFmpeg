@@ -1,0 +1,1 @@
+config:arm:armv5te:armv5te:linux:gcc 4.9.x (GCC) 20150123 (prerelease):--prefix=./android-lib --target-os=linux --cross-prefix=/Applications/android-ndk-r13/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi- --arch=arm --sysroot=/Applications/android-ndk-r13/platforms/android-14/arch-arm
